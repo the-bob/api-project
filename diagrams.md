@@ -83,7 +83,7 @@ graph TD
             end
             
             KubeProxy((kube-proxy))
-            IngressRes(["Ingress Resource<br/>paths: /rest"])
+            IngressRes(["Ingress Resource<br/>path/host based routing"])
             APISvc["API Service"]
 
             Node -- contains --> Nginx            
